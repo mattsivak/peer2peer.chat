@@ -1,0 +1,16 @@
+{
+  "name": "peer2peer.chat",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "consola": "^3.2.3",
+    "get-port-please": "^3.1.2",
+    "ohash": "^1.1.4"
+  }
+}
